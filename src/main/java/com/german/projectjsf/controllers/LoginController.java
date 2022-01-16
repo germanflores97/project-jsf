@@ -7,7 +7,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 
-@ManagedBean(name="LoginController")
+@ManagedBean(name="login_controller")
 public class LoginController {
 	private String usuario;
 	private String password;

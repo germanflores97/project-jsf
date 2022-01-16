@@ -11,12 +11,12 @@
       	<h:form id="form_login">
       		<h:panelGrid columns="2">
       			<h:outputLabel value="Usuario: *" styleClass="color_text"></h:outputLabel>
-      			<h:inputText id="usuario" value="#{LoginController.usuario}" required="true" requiredMessage="El usuario es requerido"></h:inputText>
+      			<h:inputText id="usuario" value="#{login_controller.usuario}" required="true" requiredMessage="El usuario es requerido"></h:inputText>
       			
       			<h:outputLabel value="Password: *" styleClass="color_text"></h:outputLabel>
-      			<h:inputSecret id="password" value="#{LoginController.password}" required="true" requiredMessage="La contraseña es requerida"></h:inputSecret>
+      			<h:inputSecret id="password" value="#{login_controller.password}" required="true" requiredMessage="La contraseña es requerida"></h:inputSecret>
       			
-      			<h:commandButton value="Entrar" action="#{LoginController.ingresar()}"></h:commandButton>
+      			<h:commandButton value="Entrar" action="#{login_controller.ingresar()}"></h:commandButton>
       		</h:panelGrid>
       	</h:form>
       </h:body>
