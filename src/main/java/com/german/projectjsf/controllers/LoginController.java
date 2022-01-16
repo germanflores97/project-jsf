@@ -7,11 +7,13 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 
+/*Clase que permite controlar el funcionamiento con la pantalla de login.xhtml*/
 @ManagedBean(name="login_controller")
 public class LoginController {
 	private String usuario;
 	private String password;
 	
+	/*Metodo que permite ingrear a la pantalla principal del proyecto*/
 	public void ingresar() {
 		System.out.println(this.usuario);
 		if(this.usuario.equals("german") && this.password.equals("12345")) {

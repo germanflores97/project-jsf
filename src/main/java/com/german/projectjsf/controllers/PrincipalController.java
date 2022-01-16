@@ -8,8 +8,9 @@ import javax.faces.bean.ViewScoped;
 import com.german.projectjsf.entity.Empleado;
 import com.german.projectjsf.services.EmpleadoService;
 
+/*Clase controller que se encarga de procesar la información para la pantalla principal.xhtml*/
 @ManagedBean(name="principal_controller")
-@ViewScoped
+@ViewScoped //Permite almacenar objetos mientras nos mantengamos en la misma vista (#{principalController.empleados})
 public class PrincipalController {
 	private ArrayList<Empleado> empleados;
 	private EmpleadoService empleado_service;

@@ -1,5 +1,6 @@
 package com.german.projectjsf.entity;
 
+/*Clase que reprensenta entidades de Empleados.*/
 public class Empleado {
 	private String nombre;
 	private String primer_apellido;

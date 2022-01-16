@@ -3,7 +3,12 @@ package com.german.projectjsf.services;
 import java.util.ArrayList;
 import com.german.projectjsf.entity.Empleado;
 
+/*Clase que permite realizar la logica de negocio para empleados.*/
 public class EmpleadoService {
+	/**
+	 * Metodo que permite consultar la lista de empleados de empresas de TI.
+	 * @return {@link Empleado} lista de empleados.
+	 */
 	public ArrayList<Empleado> consultarEmpleados() {
 		ArrayList<Empleado> empleados = new ArrayList<Empleado>();
 		
